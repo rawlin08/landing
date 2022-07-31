@@ -1,19 +1,154 @@
-.container1 {
+body {
+    display: flex;
+    margin: 0;
+    font-family: Roboto, serif;
+    flex-direction: column;
+}
 
+/* Header Div */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 8px;
+    justify-content: space-between;
+    padding: 10px 225px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Container 1 Div */
+
+.container1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px 225px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    display: flex;
+}
+
+.stitle {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+}
+
+.grey {
+    width: 500px;
+    height: 200px;
+}
+
+/* Container 2 Div */
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .container2 {
-
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
+
+.white {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.info {
+    width: 150px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Container 3 Div */
 
 .container3 {
-
+    background-color: #e5e7eb;
+    padding: 100px 600px;
 }
+
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+/* Container 4 Div */
 
 .container4 {
-
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
 }
 
-.container5 {
-    
+.call {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    width: 900px;
+    height: 100px;
 }
+
+.calltext {
+    display: flex;
+}
+
+/* Footer Div */
+
+.footer {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
