@@ -50,10 +50,18 @@ a {
     padding: 50px 225px;
 }
 
-h1 {
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
     font-size: 48px;
     color: #f9faf8;
     display: flex;
+    font-weight: bold;
 }
 
 .stitle {
@@ -65,6 +73,16 @@ h1 {
 .grey {
     width: 500px;
     height: 200px;
+    margin-left: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
 }
 
 /* Container 2 Div */
@@ -134,13 +152,35 @@ h1 {
 .call {
     display: flex;
     background-color: #3882f6;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 900px;
-    height: 100px;
+    height: 150px;
 }
 
-.calltext {
+.calltextmain {
     display: flex;
+    color: #eee;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.leftmain {
+    padding-left: 100px;
+}
+
+.calltextsub {
+    display: flex;
+    color: #eee;
+    font-size: 20px;
+}
+
+.bottom {
+    border: 2px solid #eee;
+}
+
+.lastbutton {
+    display: flex;
+    padding-left: 60px;
 }
 
 /* Footer Div */
