@@ -7,10 +7,9 @@ body {
 
 /* Header Div */
 
-.header {
+header {
     display: flex;
     background-color: #1f2937;
-    padding: 8px;
     justify-content: space-between;
     padding: 10px 225px;
 }
@@ -185,7 +184,7 @@ button {
 
 /* Footer Div */
 
-.footer {
+footer {
     height: 52px;
     display: flex;
     align-items: center;
