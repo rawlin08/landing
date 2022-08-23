@@ -56,17 +56,18 @@ a {
     align-items: flex-start;
 }
 
-.main {
+h1 {
     font-size: 48px;
     color: #f9faf8;
-    display: flex;
     font-weight: bold;
+    margin: 0;
 }
 
-.stitle {
+p {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    margin: 0;
 }
 
 .grey {
@@ -99,7 +100,7 @@ button {
     display: flex;
     gap: 50px;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .white {
@@ -116,9 +117,9 @@ button {
 }
 
 .text {
-    display: flex;
     text-align: center;
     margin-top: 10px;
+    color: #000000;
 }
 
 /* Container 3 Div */
@@ -138,6 +139,7 @@ button {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+    color: #000000;
 }
 
 /* Container 4 Div */
